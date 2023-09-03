@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>이도이</h1>
+    <script>
+
+        const englishDay = 'friday';
+
+        let koreanDay;
+
+        switch ('thursday') {
+            case 'monday':
+                koreanDay = '월요일';
+            case 'tuesday':
+                koreanDay = '화요일';
+            case 'wednesday':
+                koreanDay = '수요일';
+            case 'thursday':
+                koreanDay = '목요일';
+                console.log(koreanDay);
+            case 'friday':
+                koreanDay = '금요일';
+                console.log(koreanDay);
+            default:
+                koreanDay = '주말';
+                console.log(koreanDay);
+        }
+
+        console.log(koreanDay);
+
+
+        /*인덱스에서 가져오면 키는 인덱스값*/
+        const ivememberArray = ['안유진', '가을', '이서', '장원영', '레이', '리즈']
+
+        for (let key in ivememberArray) {
+            console.log(key);
+        }
+
+        for (let value of ivememberArray) {
+            console.log(value);
+            
+        }
+    </script>
+</body>
+
+</html>
