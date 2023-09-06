@@ -27,3 +27,5 @@ switch('thursday'){
 }
 
 console.log(koreanDay);
+
+
